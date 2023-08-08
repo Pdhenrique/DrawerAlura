@@ -1,12 +1,11 @@
 import { render, screen } from "@testing-library/react";
-import React from "react";
-import Formulario from "./Formulario";
+import Form from "./Form";
 
 // Jest
 
 test('quando o input está vazio, novos participantes não podem ser adicionados', () => {
 
-    render(<Formulario />)
+    render(<Form />)
 
     // encontrar no DOM o input
     const input = screen.getByPlaceholderText('Insira os nomes dos participantes')

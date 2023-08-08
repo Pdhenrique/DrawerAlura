@@ -1,29 +1,29 @@
 /* src/componentes/Cabecalho/estilos.css */
 
-.cabecalho {
+.header {
     display: flex;
     justify-content: space-around;
     padding-top: 120px;
 }
 
-.imagem-logo {
+.image-logo {
     background-image: url("/public/imagens/logo.png");
     width: 351px;
     height: 117px;
 }
 
-.participante {
+.participant {
     z-index: 1;
 }
 
 @media screen and (max-width: 800px) {
-    .cabecalho {
+    .header {
         padding-top: 60px;
         flex-direction: column;
         align-items: center;
     }
 
-    .imagem-logo {
+    .image-logo {
         background-image: url("/public/imagens/logo-pequeno.png");
         width: 235px;
         height: 199px;
